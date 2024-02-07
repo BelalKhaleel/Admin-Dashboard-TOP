@@ -6,3 +6,9 @@
   padding: 0;
 }
 
+:root {
+  --primary-color: rgb(255,255,255);
+  --seconday-color: rgb(215,220,228);
+  --accent: rgb(25,146,212);
+}
+
