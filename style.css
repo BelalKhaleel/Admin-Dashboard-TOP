@@ -19,6 +19,7 @@
 }
 
 .container {
+  max-height: 100vh;
   display: grid;
   grid-template-columns: 0.7fr repeat(4, 1fr);
 }
@@ -33,6 +34,7 @@ aside {
   grid-template-rows: 0.25fr 0.5fr 2fr;
   row-gap: 2rem;
   font-weight: bold;
+  letter-spacing: 1px;
 }
 
 aside a {
@@ -225,6 +227,7 @@ h2 {
   border-radius: 5px;
   display: grid;
   min-height: 230px;
+  gap: 10px;
 }
 
 .trend {
